@@ -1,3 +1,4 @@
+//Credits to Csoftware for optimising the code. Im really bad at writing good looking clean code...
 static auto IsTainedBypass() -> void
 {
 	const auto Tainted = reinterpret_cast<unsigned long>(GetModuleHandleA("WINTRUST.dll")); /* Store the module of WINTRUST.dll */
